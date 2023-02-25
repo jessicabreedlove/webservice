@@ -1,0 +1,86 @@
+/* Desinging for mobile first! */
+/*
+ Color pallete:
+background: #F2E9E4
+accent 1: #C9ADA7
+accent 2: #22223B
+Fonts:
+headings: font-family: 'DM Serif Display', serif;
+paragraphs: font-family: 'Lora', serif;
+
+ */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+img {
+	max-width: 100%;
+}
+
+
+body{
+	margin: 0;
+	background-color: #F2E9E4;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo{
+	width: 75%;
+}
+
+nav a{
+	font-family: 'DM Serif Display', serif;
+	text-decoration: none;
+	background-color: #22223B;
+	color: #C9ADA7;
+	padding: 4px 6px;
+}
+
+main {
+	margin: 0 2%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+h1{
+	font-family: 'DM Serif Display', serif;
+}
+  
+p {
+	font-family: 'Lora', serif;
+}
+
+label {
+	font-size: 20px;
+	line-height: 1.5;
+	padding-right: 5px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+footer {
+	text-align: center;
+	padding-top: 3%;
+	border-top: #22223B solid 4px;
+	font-family: 'Lora', serif;
+}
