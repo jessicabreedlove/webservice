@@ -10,7 +10,7 @@ paragraphs: font-family: 'Lora', serif;
 
  */
 
-html {
+ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
   }
@@ -38,6 +38,7 @@ header{
 
 #logo{
 	width: 75%;
+	max-width: 250px;
 }
 
 nav a{
