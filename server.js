@@ -1,6 +1,9 @@
-const express = require('express');
+import express from 'express';
+import fetch from 'node-fetch';
+import dotenv from 'dotenv';
+
 const app = express();
-const fetch = require('node-fetch');
+dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 

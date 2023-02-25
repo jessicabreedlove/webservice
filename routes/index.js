@@ -1,6 +1,10 @@
-const routes = require('express').Router();
+import { Router} from 'express';
+import moviesRouter from './movies.js';
+// import homeRouter from './home.js';
 
-// routes.use('/', require('./home'));
-routes.use('/movies', require('./movies'));
+const routes = Router()
 
-module.exports = routes;
+// routes.use('/movies', moviesRouter);
+routes.use('/movies', moviesRouter);
+
+export default routes;
