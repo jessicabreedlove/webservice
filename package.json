@@ -1,0 +1,19 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "Movie App Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicabreedlove/webservice.git"
+  },
+  "author": "Jessica Reece",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicabreedlove/webservice/issues"
+  },
+  "homepage": "https://github.com/jessicabreedlove/webservice#readme"
+}
